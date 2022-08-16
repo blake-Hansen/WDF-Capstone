@@ -1,0 +1,414 @@
+/* DEFAULT CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;     /* Center the body */
+  max-width: 1900px;
+  height: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* HEADER STYLING IS LOCATED HERE */
+.mainHead {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.listRemove {
+    display: flex;
+    list-style: none;
+}
+.logIn {
+  display: none;
+}
+.BGCOLOR {
+  background-color: #880061;
+  font-family: system-ui;
+}
+.breakFromFix {
+  flex: 1;
+  font-family: fantasy;
+  font-size:24px ;
+  color: #880061;
+}
+/* for background image Area */
+.moveIntro {
+  display: grid; 
+  grid-auto-rows: 1fr; 
+  margin-top: 2rem;
+  margin-left: 1px;
+  background-image: url(../media/images/mainWithDogs.jpeg);
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.descriptionArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 60px; 
+  background-color: #ffffff87; 
+}
+.signInSignupArea {
+  background-color: #ffffff87; 
+  padding-top: 15%;
+}
+.signInSignupArea2 {
+  background-color: #ffffff87; 
+}
+.showTime {  
+  margin-left: 15px;
+}
+.purpleTxt {
+  color: #880061;
+  font-size: 17px;
+}
+.buttonStyle1 {
+  color: #880061 ;
+  border-color: #880061; 
+  font-family: system-ui;
+  width: 85px;
+  margin-left: 40%;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.buttonStyle {
+  color: #880061 ;
+  border-color: #880061; 
+  font-family: system-ui;
+  width: 85px;
+  margin-top: 10px;
+}
+.smallSpacer {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.boxStyles {
+  border: 2px solid;
+}
+h5 {
+  font-size:23px ;
+}
+li {
+  padding: 2px;
+  color: black;
+}
+.purpleBreak{
+  width: 93%;
+  margin: 39px;
+  border-bottom: 5px solid #880061;  
+}
+.welcomeStyles {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 15px;
+}
+.welcomePerson{
+  display:flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* styleing below this line is for the four sections area  EVENTS MEDICAL FNANCE.. on the INDEX etc.. */
+.boxStyles {
+  color: #880061 ;
+  border-color: #880061; 
+  font-family: system-ui; 
+  margin-bottom: 15px; 
+  height: 400px;
+  border: 2px solid;
+}
+.alterLinks{
+  color: #880061 ;
+}
+.noStyle {
+  color: #880061 ;
+}
+.seperateIndexBoxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* footer styleing starts here */
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.levelAppleLink {
+  display: flex;
+  margin: 10px;
+}
+.footerStylesAfterApple{
+  width:150px;
+}
+.footWhite{
+  text-decoration: none;
+  color: aliceblue;
+}
+/* create an account page styleing here!! */
+.firstWarning,
+.lastWarning,
+.emailWarning,
+.passwordWarning,
+.emailWarning2,
+.passwordWarning2{
+font-size: 10px;
+color: palevioletred;
+height: 15px;
+width: 100%;
+}
+form,
+div{
+  font-family: sans-serif;
+}
+.submit{
+  margin-left: 20px;
+}
+.moveSubmitToTheRight{
+  display: flex;
+}
+.countyDisplay{
+  width: 100%;
+  height: 20px;
+  margin-top: 15px;
+}
+.text-center {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+/* Styleing for the Community / Health / Finance  Pages */
+.purpleHeading{ 
+  margin-top:100px;
+  height:50px;
+  width: 100%;
+  font-size: 36px;
+  color: #880061; 
+  font-family: system-ui;
+}
+.boxStyles2 {
+  color: Black ;
+  border-color: #880061; 
+  font-family: system-ui; 
+  margin-bottom: 15px; 
+  height: 250px;
+  border: 2px solid;
+}
+.imageSizes {
+  width: 200px;
+  height: 200px;
+}
+.createSpacingForBoxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inBoxFontBig {
+  color: Black ;
+  font-size: 16px;
+  font-family: system-ui;
+}
+.inBoxFontSmall {
+  color: Black ;
+  font-size: 10px;
+  font-family: system-ui;
+}
+/* this is styleing for About US */
+.topOfAbout {
+  height: 750px;
+  width: 100%;
+  margin-top: 100px;
+}
+.aboutFlex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;  
+  border: solid 2px;
+  border-radius: 6px;
+  border-color: grey;
+  margin-bottom: 75px;
+  margin-top: 25px;
+  padding: 2px;
+}
+.aboutFlexInterior {
+  display: flex;
+  justify-content: center;
+}
+.contactPicSize{
+  width:350px;
+  height:250px;
+}
+h1, .text-center{
+  font-size: 25px;
+}
+/* alters the sign in and signup buttons when going into app mode */
+@media screen and (max-width: 500px) {
+  
+  .buttonStyle1 {
+    color: #880061 ;
+    border-color: #880061; 
+    font-family: system-ui;
+    width: 85px;
+    margin-left: 25%; 
+    margin-right: 5px;
+  }
+  .descriptionArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px; 
+    background-color:#ffffffda; 
+  }
+  .signInSignupArea {
+    background-color: #ffffffda;   
+  }
+  .signInSignupArea2 {
+    background-color: #ffffffda; 
+  }
+  .levelAppleLink {
+    display: flex;
+    flex-direction: column;
+  }  
+/* changes the purple bar breakin page going into app mode */
+  .purpleBreak{
+    width: 93%;
+    margin: 10px;
+    border-bottom: 5px solid #880061;    
+  }  
+  .footWhite{
+    text-decoration: none;
+    color: aliceblue;
+    margin:25px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .footerStylesAfterApple{
+    width:550px;
+    display: flex;
+    justify-content: center;
+  } 
+.purpleHeading{ 
+  margin-top: 100px;
+  height: 50px;
+  width: 100%;
+  font-size: 36px;
+  color: #880061;
+  font-family: system-ui;
+  }
+/* changes for footer width and flex styling */
+.footerStylesAfterApple{
+  width:550px;
+  display: flex;
+  justify-content: center;  
+}
+.footWhite{
+  text-decoration: none;
+  color: aliceblue;
+  margin:25px;
+}
+/* changing text size of Welcome and showtime */
+.showTime {  
+  margin-left: 25px;
+}
+.purpleTxt {
+  color: #880061;
+  font-size: 30px;
+}
+}
+@media screen and (min-width: 775px) {
+  footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6%;
+  }
+
+ 
+}
+
+@media screen and (min-width: 900px) {
+  .purpleHeading{   
+    margin-top: 100px;
+    height: 50px;
+    width: 100%;
+    font-size: 36px;
+    color: #880061;
+    font-family: system-ui;
+    }
+    .signInSignupArea {
+      background-color: #ffffff87; 
+      padding-top: 5%;
+    }
+    .signInSignupArea2 {
+      background-color: #ffffff87; 
+    }
+    .breakFromFix {
+      flex: 1;
+      font-family: fantasy;
+      font-weight: bolder;
+      font-size:44px ;
+      color: #880061;
+    }
+    .aboutFlex{
+      display: flex; 
+      flex-direction: row; 
+      border: solid 2px;
+      border-radius: 6px;
+      border-color: grey;
+      margin-bottom: 75px;
+      margin-top: 25px;
+      padding: 2px;
+    }    
+  }
