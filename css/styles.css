@@ -71,7 +71,7 @@ html, body {
 }
 .breakFromFix {
   flex: 1;
-  font-family: fantasy;
+  font-family: serif;
   font-size:24px ;
   color: #880061;
 }
@@ -396,7 +396,7 @@ h1, .text-center{
     }
     .breakFromFix {
       flex: 1;
-      font-family: fantasy;
+      font-family: serif;
       font-weight: bolder;
       font-size:44px ;
       color: #880061;
